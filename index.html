@@ -23,10 +23,15 @@
       rel="stylesheet"
     />
 
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./assets/css/fontawesome-all.min.css" rel="stylesheet" />
-    <link href="./assets/css/swiper.css" rel="stylesheet" />
-    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
@@ -34,6 +39,136 @@
       <span></span>
       <span></span>
       <span></span>
+      <div class="content">
+        <div class="contentBx active" id="content1">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/image1.jpeg" alt="" />
+            </div>
+            <div class="textBx">
+              <h2>Maud Fitzerbert<br /><b>Software Engineer</b></h2>
+              <ul class="sci">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contentBx" id="content2">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/image2.jpeg" alt="" />
+            </div>
+            <div class="textBx">
+              <h2>Maud Fitzerbert<br /><b>Software Engineer</b></h2>
+              <ul class="sci">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contentBx" id="content3">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/image3.jpeg" alt="" />
+            </div>
+            <div class="textBx">
+              <h2>Maud Fitzerbert<br /><b>Software Engineer</b></h2>
+              <ul class="sci">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contentBx" id="content4">
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/image4.jpg" alt="" />
+            </div>
+            <div class="textBx">
+              <h2>Maud Fitzerbert<br /><b>Software Engineer</b></h2>
+              <ul class="sci">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="bottom">
       <div class="waves">
@@ -43,19 +178,20 @@
         <div class="wave" id="wave4"></div>
       </div>
       <div class="icon">
-        <div class="imgBx active">
+        <div class="imgBx active" data-id="content1">
           <img src="./assets/images/image1.jpeg" alt="" />
         </div>
-        <div class="imgBx">
+        <div class="imgBx" data-id="content2">
           <img src="./assets/images/image2.jpeg" alt="" />
         </div>
-        <div class="imgBx">
+        <div class="imgBx" data-id="content3">
           <img src="./assets/images/image3.jpeg" alt="" />
         </div>
-        <div class="imgBx">
+        <div class="imgBx" data-id="content4">
           <img src="./assets/images/image4.jpg" alt="" />
         </div>
       </div>
     </div>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
