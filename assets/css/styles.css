@@ -151,7 +151,7 @@ body {
 
 .icon .imgBx.active {
   opacity: 1;
-  scale: 1.2;
+  transform: scale(1.2);
   margin: 0 10px;
   box-shadow: 0 0 0 4px #fff, 0 0 0 10px #66a3ff, 0 0 0 12px #fff;
 }
